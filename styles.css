@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    list-style: none;
+    outline: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'Space Mono', monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    padding-bottom: 12px;
+}
+
+header h2 {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 35px;
+    color: #333333;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+div img {
+    width: 87vw;
+    margin: 0 auto;
+}
+
+.container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.container h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.container p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #4F4F4F;
+}
+
+.container button {
+    background-color: #333333;
+    width: 207px;
+    height: 60px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.container div h1,
+.container div p,
+.container div button {
+    margin-bottom: 65px;
+}
+
+
+footer {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #BDBDBD;
+    
+}
+
+footer span {
+    color: #9e9d9d;
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    body {
+        height: 100vh;
+        padding: 12px;
+    }
+    
+    header h2 {
+        margin-bottom: 12px;
+        line-height: 1;
+    }
+    
+    main {
+        margin: 0 auto;
+    }
+
+    .container img {
+        width: 40vw;
+        margin-right: 10px;
+    }
+
+    .container div {
+        width: 46vw;
+        margin-left: 10px;
+    }
+
+    .container {
+        flex-direction: row;
+    }
+    
+    div img {
+        width: 426px;
+        height: 456px;
+    }
+    
+    .container div {
+        justify-content: space-around;
+        margin-bottom: 0;
+    }
+    
+    .container h1 {
+        font-size: 64px;
+        max-width: 588px;
+    }
+    
+    .container p {
+        font-size: 24px;
+        max-width: 382px;
+    }
+    
+    .container button {
+        cursor: pointer;
+    }
+    
+    .container div h1,
+    .container div p,
+    .container div button {
+        margin-bottom: 0;
+    }
+    
+}
