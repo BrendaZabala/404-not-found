@@ -6,8 +6,8 @@
 
 <div align="center">
   <h3>
-    <a href="https://brendazabala.github.io/404-not-found/">
-      Try the live demo
+    <a href="https://brendazabala.github.io/404-not-found/"  target="_blank">
+     🌻Demo
     </a>
   </h3>
 </div>
